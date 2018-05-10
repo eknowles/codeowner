@@ -1,11 +1,13 @@
 {
   "name": "codeowner",
   "version": "1.0.2",
+  "description": "Generate CODEOWNER file for monorepos",
   "preferGlobal": true,
-  "main": "./index.js",
   "bin": "./index.js",
   "license": "MIT",
   "author": "Edward Knowles <mail@eknowles.com>",
+  "repository": "github:eknowles/codeowner",
+  "keywords": ["cli", "github", "monorepo"],
   "dependencies": {
     "async": "^2.6.0",
     "columnify": "^1.5.4",
